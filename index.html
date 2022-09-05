@@ -31,7 +31,7 @@
                 </div>
     
                 <div class="header-menu-btn">
-                    <a href="/index.html"><input type="button"  value="Dave Website"></a>
+                    <a href="#"><input type="button"  value="Dave Website"></a>
                 </div>
             </div>
 
@@ -46,20 +46,15 @@
                     </div>
 
                     <div class="mobile-logo-two">
-                        <span class="fa-solid fa-bars bars-span"></span>
-
-                        
+                        <span class="fa-solid fa-bars bars-span" id="bar" onclick="myBar()"></span>
                     </div>
-
-                    <div class="mobile-logo-three">
-                        <a href="../dave hotel/index.html"><span class="fa-solid fa-x x-span"></span></a>
-                    </div>
-                    
+                    <span class="fa-solid fa-x x-span" id="cancel" onclick="myCancel()"></span>
                     
                 </div>
                 
                 
-                <div class="mobile-view-menu-bg">
+                <div class="mobile-view-menu-bg" id="header">
+                    
                     <div class="mobile-header-menu">
                         <a href="#">Home</a>
                         <a href="#">Services</a>
@@ -435,5 +430,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="./asset/javaScript/app.js"></script>
 </body>
 </html>

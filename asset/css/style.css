@@ -717,7 +717,7 @@ footer{
     position: absolute;
     width: 100%;
     z-index: 2;
-    height: 1000vh;
+    height: 100%ggit ;
     display: none;
     transition: all 2s ease-in-out;
     animation-name: menu;
@@ -809,14 +809,7 @@ footer{
 }
 
 
-.mobile-view-menu:hover .mobile-view-menu-bg{
-    display: block;
-    transition: all 3s ease-in-out;
-}
 
-.mobile-header-name-logo:hover .mobile-logo-two .bars-span{
-    display: none;
-}
 
 
 
@@ -831,9 +824,11 @@ footer{
 }
 
 
-.mobile-header-name-logo:hover .mobile-logo-two + .mobile-logo-three{
-    display: block;
-    transition: all 3s ease-in-out;
+#cancel{
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+    display: none;
 }
 
 @media (max-width: 1024px){
